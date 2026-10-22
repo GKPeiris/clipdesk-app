@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=io.github.clipdeck.ClipDeck
+Exec=/usr/bin/python3 /usr/share/clipdeck/run.py --background
+SystemdService=clipdeck.service

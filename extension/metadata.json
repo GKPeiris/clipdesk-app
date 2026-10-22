@@ -1,0 +1,14 @@
+{
+  "uuid": "clipdeck@local",
+  "name": "ClipDeck Companion",
+  "description": "Background Wayland capture and panel access for ClipDeck. Super+V is configured by the desktop app.",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "version": 2
+}

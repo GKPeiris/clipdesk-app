@@ -1,0 +1,5 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.clipdeck" path="/org/gnome/shell/extensions/clipdeck/">
+    <key name="show-clipboard" type="as"><default>['&lt;Super&gt;v']</default><summary>Open ClipDeck</summary></key>
+  </schema>
+</schemalist>

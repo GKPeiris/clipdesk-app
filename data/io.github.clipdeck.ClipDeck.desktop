@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=ClipDeck
+GenericName=Clipboard Manager
+Comment=Your clipboard, all together
+Exec=clipdeck --full
+Icon=io.github.clipdeck.ClipDeck
+Terminal=false
+Categories=Utility;GTK;
+Keywords=clipboard;history;copy;paste;snippets;
+StartupNotify=true
+StartupWMClass=io.github.clipdeck.ClipDeck

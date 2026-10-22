@@ -1,0 +1,16 @@
+[Unit]
+Description=ClipDeck background clipboard service
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=io.github.clipdeck.ClipDeck
+ExecStart=/usr/bin/python3 /usr/share/clipdeck/run.py --background
+Restart=on-failure
+RestartSec=2
+TimeoutStopSec=5
+Environment=CLIPDECK_SERVICE=clipdeck.service
+
+[Install]
+WantedBy=graphical-session.target
